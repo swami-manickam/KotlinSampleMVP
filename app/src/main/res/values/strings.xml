@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="hint_eid">E Id</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_idbarahno">Id Barah No</string>
+    <string name="hint_email_id">Email Address</string>
+    <string name="hint_unified_no">Unified Number</string>
+    <string name="hint_mob_no">Mobile Number</string>
+
+
+    <string name="login">Login</string>
+    <string name="msg_sign_in">Signing In</string>
+    <string name="title_news">News Details</string>
+
+    <string name="msg_empty_name">Please enter name</string>
+    <string name="msg_empty_eid">Please enter eid</string>
+    <string name="msg_empty_idbarahno">Please enter idbarahno</string>
+    <string name="msg_empty_email_id">Please enter email id</string>
+    <string name="msg_empty_uni_no">Please enter unified no</string>
+    <string name="msg_empty_mob_no">Please enter mob no</string>
+
+
+
+
+</resources>

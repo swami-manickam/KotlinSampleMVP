@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryOrange">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:textSize="@dimen/txtXLarage"
+        android:text="@string/login"
+        android:textColor="@color/colorPrimaryWhite"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_normal"
+        android:gravity="center">
+
+
+    <EditText
+        android:id="@+id/et_eid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="@dimen/margin_small_little"
+        android:hint="@string/hint_eid"
+        android:textColor="@color/colorPrimaryWhite"
+        android:inputType="number"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:layout_marginTop="@dimen/margin_small_little"
+        android:textColor="@color/colorPrimaryWhite"
+        android:focusableInTouchMode="true"
+        android:hint="@string/hint_name"
+        android:inputType="text"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/et_idbarahno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:layout_marginTop="@dimen/margin_small_little"
+        android:textColor="@color/colorPrimaryWhite"
+        android:focusableInTouchMode="true"
+        android:hint="@string/hint_idbarahno"
+        android:inputType="number"
+        android:singleLine="true" />
+
+
+    <EditText
+        android:id="@+id/et_email_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:layout_marginTop="@dimen/margin_small_little"
+        android:textColor="@color/colorPrimaryWhite"
+        android:focusableInTouchMode="true"
+        android:hint="@string/hint_email_id"
+        android:inputType="textEmailAddress"
+        android:singleLine="true" />
+
+
+    <EditText
+        android:id="@+id/et_unified_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:textColor="@color/colorPrimaryWhite"
+        android:focusableInTouchMode="true"
+        android:hint="@string/hint_unified_no"
+        android:inputType="number"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/et_mob_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:maxLength="12"
+        android:layout_marginTop="@dimen/margin_small_little"
+        android:textColor="@color/colorPrimaryWhite"
+        android:focusableInTouchMode="true"
+        android:hint="@string/hint_mob_no"
+        android:inputType="number"
+        android:singleLine="true" />
+
+
+
+    <Button
+        android:id="@+id/btn_sign_in"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/margin_small_little"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/colorPrimaryWhite"
+        android:textColor="@color/colorPrimaryBlack"
+        android:text="@string/login" />
+
+    </LinearLayout>
+
+</LinearLayout>

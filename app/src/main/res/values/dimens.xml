@@ -1,0 +1,19 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="margin_very_small">8dp</dimen>
+    <dimen name="margin_small_little">10dp</dimen>
+    <dimen name="margin_small">12dp</dimen>
+    <dimen name="margin_medium">14dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="margin_large">18dp</dimen>
+    <dimen name="margin_xlarge">20dp</dimen>
+
+
+    <dimen name="txtSmall">12dp</dimen>
+    <dimen name="txtMedium">14dp</dimen>
+    <dimen name="txtNormal">16dp</dimen>
+    <dimen name="txtLarge">18dp</dimen>
+    <dimen name="txtXLarage">20dp</dimen>
+
+</resources>
